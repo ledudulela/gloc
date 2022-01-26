@@ -1,16 +1,16 @@
-# gloc 
+![screenshot](https://github.com/ledudulela/gloc/blob/main/gloc_logo.png)
 
 Affiche les positions géographiques de plusieurs participants sur une carte 
 
-Démo: http://ledudulela.free.fr/gloc/?i=999
+- Démo: http://ledudulela.free.fr/gloc/?i=999
 
-Aide: http://ledudulela.free.fr/gloc/help
+- Aide: http://ledudulela.free.fr/gloc/help
 
 Displays the geographical positions of several participants on a map
 
-Demo: http://ledudulela.free.fr/gloc/?i=999
+- Demo: http://ledudulela.free.fr/gloc/?i=999
 
-Help: http://ledudulela.free.fr/gloc/help
+- Help: http://ledudulela.free.fr/gloc/help
 
 
 Compatible avec les applications:

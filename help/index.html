@@ -1,2 +1,131 @@
+<!DOCTYPE html>
 <html>
+<head>
+<!-- auteur: ledudul&#233;l&#224 -->
+<meta charset="utf-8">
+<title>G~Loc - Info</title>
+<link rel="shortcut icon" type="images/x-icon" href="../favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="../default.css">
+<style>
+th {text-align:center;}
+td {text-align:center;}
+</style>
+</head>
+<body>
+<table border="0" width="100%">
+<tr>
+<td width="150px" ><a id="topofpage" href="../"><img src="./img/gloc_logo_large.jpg" width="100px" height="100px" align="center"/></a></td>
+<td width="600px"><h2>G~Loc - Info</h2></td>
+<td width="150px" ><a id="gloc" href="../"><img src="./img/gloc_logo_large.jpg" width="100px" height="100px" align="center"/></a></td>
+<td>&nbsp;</td>
+</tr>
+</table>
+<br/><i>Document mis à jour le 26-01-2022</i>
+<br>Suivez nous sur <a target="_blank" href="https://t.me/gloctchatfr" title="G-LOC Tchat #FR">Telegram <img src="./img/telegram.png"></img></a>
+<br>
+<ul>
+<li><a href="#presentation">Présentation du système</a></li>
+<li><a href="#urls">Les paramètres d'URLs utiles</a></li>
+<li><a href="#gpslogger">Configurer l'application gpslogger</a></li>
+<li><a href="#problemes">Principaux problèmes rencontrés</a></li>
+<li><a href="#batterie">Economiser la batterie</a></li>
+<li><a href="#trace">Enregistrer la trace</a></li>
+<li><a href="#appcompatibles">Applications compatibles</a></li>
+</ul>
+<br><u id="presentation">Présentation du système :</u>
+<table border="0">
+<tr valign="top">
+ <td><a href=".."> Page de consultation G~Loc </a><br><br><img src="./img/gloc_main_20220122.jpg" /></td>
+ <td> Page de gestion des émetteurs <br><br><img src="./img/gloc_su_20220120.jpg" /></td>
+</tr>
+<tr valign="top">
+ <td><br><u>Principe de fonctionnement:</u><br><br>Les émetteurs envoient leur position,<br><br>Les consultants regardent la carte<br>à l'aide d'un navigateur internet.</td>
+ <td><img src="./img/gloc_principe.jpg" /></td>
+</tr>
+</table>
+<br>
+<br><u id="urls">Les paramètres d'URLs utiles:</u>
+<br>
+<br>- Afficher la carte G-Loc :
+<br> <a target="_blank" href="http://ledudulela.free.fr/gloc">http://ledudulela.free.fr/gloc</a>
+<br> <a target="_blank" href="http://ledudulela.free.fr/gloc?i=999">http://ledudulela.free.fr/gloc/?i=999</a>
+<br>
+<br>
+<br>- Les applications émettrices de positions géographiques ( ex: <a target="_blank" href="https://f-droid.org/packages/com.mendhak.gpslogger/">GPSLogger</a> ) :
+<br> http://ledudulela.free.fr/gloc/?lat=%LAT&lon=%LON&i=999
+<br> http://ledudulela.free.fr/gloc/?lat=%LAT&lon=%LON&i=999&u=alias
+<br>
+<br>&nbsp;&nbsp;&nbsp;<u>Arguments implémentés:</u>
+<ul>
+ <li>i=999 (obligatoire)</li>
+ <li>u=alias (doit appartenir à la liste des alias prédéfinie)</li>
+ <li>lat=%LAT (obligatoire)</li>
+ <li>lon=%LON (obligatoire)</li>
+ <li>time=%TIME (voir doc application)</li>
+ <li>alt=%ALT (altitude)</li>
+ <li>spd=%SPD (speed)</li>
+ <li>desc=%DESC (description)</li>
+ <li>batt=%BATT (battery)</li>
+ <li>acc=%ACC (accuracy, precision)</li>
+ <li>all (tous, uniquement pour Overland sur iPhone)</li>
+</ul>
+Remarques:
+<br>Pour Overland, il est inutile de mentionner les arguments lat et lon et il est inutile de définir la valeur des arguments optionnels %VAL .
+<br>Exemple: url_serveur/gloc/?i=999&u=alias&spd&batt
+<br><img src='./img/overland_settings.jpg'/>
+<br>
+<br>Pour Osmand (greffon d'enregistrement, option Live), les valeurs des arguments lat et lon sont respectivement {0} et {1}
+<br>Exemple: url_serveur/gloc/?i=999&u=alias&lat={0}&lon={1}
+<br><img src='./img/osmand_suivi_en_ligne.jpg'/>
+<br>
+<br><u id="gpslogger">Configurer l'application <a target="_blank" href="https://f-droid.org/packages/com.mendhak.gpslogger/">GPSLogger</a>:</u>
+<table border="0">
+<tr><td><img src="./img/gpslogger_param_detail_enreg.jpg" /></td><td>Attention aux minuscules<br> et Majuscules dans l'URL</td></tr>
+<tr><td><img src="./img/gpslogger_param_enreg_vers.jpg" /></td><td><img src="./img/gpslogger_param_enreg_vers_url.jpg" /></td></tr>
+<tr><td><img src="./img/gpslogger_param_format_coordonnees.jpg" /></td><td><img src="./img/gpslogger_param_perfo_interval.jpg" /></td></tr>
+</table>
+<br>
+<br><u id="problemes">Problèmes habituellement rencontr&#233;s:</u>
+<br>Si gpslogger n'affiche pas les coordonnées alors que le service de localisation est activé, redémarrer le smartphone.
+<br>Si gpslogger affiche les coordonnées mais que gloc ne les affiche pas, attendre quelques secondes et actualiser la page.
+<br>Si les coordonnées ne s'affichent toujours pas sur gloc:
+<br>- S'assurer que le smartphone de l'&#233;metteur a une connexion internet (data activ&#233;e)
+<br>- S'assurer que l'&#233;metteur a correctement configur&#233 l'URL d'enregistrement dans gpslogger (i &amp; u)
+<br>- S'assurer que l'&#233;metteur a activ&#233; l'envoi automatique par Custom URL
+<br>
+<br>
+<br><u id="batterie">Economiser la batterie:</u>
+<br>Utilisation du service de localisation réseau (téléphonique) plutôt que satellite.
+<br>À configurer dans les paramètres du smartphone ET dans les paramètres de gpslogger.
+<br>Cette configuration peut également résoudre le problème d'obtention de position géographique de gpslogger.
+<table border="0">
+<tr><thead><th>smartphone</th><th>gpslogger</th></thead></tr>
+<tr><td><img src="./img/conf_smartphone_choix_svc-loc.jpg" /></td><td><img src="./img/conf_gpslogger_choix_svc_loc.jpg" /></td></tr>
+</table>
+<br>
+<br><u id="trace">Enregistrer la trace:</u>
+<br>L'application gpslogger permet d'enregistrer le trace dans un fichier (GPX, KML, NMEA)
+<table border="0">
+<tr><td><img src="./img/gpslogger_vue_detail.jpg" /></td></tr>
+</table>
+<br>Des sites internet permettent ensuite d'afficher la trace (fichier gpx) sur une carte.
+<br>Exemple: <a target="_blank" href="https://www.calculitineraires.fr">www.calculitineraires.fr</a>
+<br>
+<br><u id="appcompatibles">Applications compatibles:</u>
+<ul>
+<li>Android - Osmand+
+<li>Android - Osmand (avec un abonnement de quelques centimes pour l'option Live)
+<li>Android - gpslogger
+<li>Android - phonetrack
+<li>iPhone - Osmand (avec un abonnement de quelques centimes pour l'option Live)
+<li>iPhone - Overland GPS Tracker
+</ul>
+Pour Android, les applications sont disponibles dans l'application ou site internet <a target="_blank" href="https://f-droid.org/fr/">F-Droid</a> .
+<br>L'application Osmand est disponible
+ sur <a target="_blank"  href="https://play.google.com/store/apps/details?id=net.osmand&hl=fr_FR&gl=FR">google playstore</a>
+ et sur <a target="_blank" href="https://apps.apple.com/fr/app/osmand-maps-travel-navigate/id934850257">apple store</a>.
+<br><br>
+<a href="#topofpage">Haut de page</a>
+<br>
+</body>
 </html>

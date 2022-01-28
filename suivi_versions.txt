@@ -1,0 +1,28 @@
+Suivi de versions :
+-------------------
+Version 1.5.2 du 28 janvier 2022
+ - Ajout du champ H permettant de redimensionner la hauteur de la carte
+ - Ajout du lien vers la page de gestion "SU" si l'argument u=alias est passé dans l'url
+ - Amélioration du traitement des données provenant de Overland
+ - Possibilité d'afficher une trace GPX (expérimental)
+
+
+Version 1.5.1 du 26 janvier 2022
+- Nouvelle gestion des arguments d'URL pour les données provenant de l'application Overland GPS Tracker (iPhone)
+- Ajout d'une case à cocher pour les écrans en mode paysage et/ou à faible résolution
+
+
+Version 1.5.0 du 25 janvier 2022
+- Implémentation de la réception de données provenant de l'application Overland (pour iPhone)
+
+
+Version 1.4.1 du 23 janvier 2022
+- Modification de l'IHM pour une meilleure optimisation de l'espace sur la page
+
+
+Version 1.3 du 22 janvier 2022
+- Plus robuste: Modification de la page "su" pour renforcer la sécurité
+
+
+Version 1.2 du 20 janvier 2022
+- Nouveautés: gestion des listes de participants

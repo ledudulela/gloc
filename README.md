@@ -21,6 +21,6 @@ Compatible avec les applications:
 - iPhone - Osmand (avec un abonnement de quelques centimes pour l'option Live)
 - iPhone - Overland GPS Tracker 
 
-![screenshot](https://github.com/ledudulela/gloc/blob/main/gloc_main_20220122.png)
+![screenshot](https://github.com/ledudulela/gloc/blob/main/gloc_screenshot.png)
 
 Pour cela, il suffit d'envoyer votre position vers l'url du site GLoc, avec l'une des applications compatibles, en suivant les indications de la page d'aide.

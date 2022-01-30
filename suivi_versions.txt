@@ -1,5 +1,9 @@
 Suivi de versions :
 -------------------
+Version 1.6.0 du 30 janvier 2022
+ - Possibilité d'afficher une trace GPX pour i ainsi que celles des émetteurs ayant activé l'enregistrement de leur trace avec l'argument &gpx
+
+
 Version 1.5.2 du 28 janvier 2022
  - Ajout du champ H permettant de redimensionner la hauteur de la carte
  - Ajout du lien vers la page de gestion "SU" si l'argument u=alias est passé dans l'url

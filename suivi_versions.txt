@@ -1,5 +1,10 @@
 Suivi de versions :
 -------------------
+Version 1.6.1 du 31 janvier 2022
+ - Suppression automatique des fichiers GPX périmés (+ de 2h)
+ - Correction du centrage carte lorsque les traces GPX sont activées
+
+
 Version 1.6.0 du 30 janvier 2022
  - Possibilité d'afficher une trace GPX pour i ainsi que celles des émetteurs ayant activé l'enregistrement de leur trace avec l'argument &gpx
 

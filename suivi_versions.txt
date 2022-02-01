@@ -1,5 +1,13 @@
 Suivi de versions :
 -------------------
+Version 1.6.2 du 1er février 2022
+ - Désactivation de l'affichage de points s'ils sont périmés
+ - Ajout de la date/heure de réception du point
+ - Prise en charge des accents dans l'alias
+ - Ajout d'une case à cocher pour afficher les traces GPX
+ - Quelques améliorations de l'IHM
+
+
 Version 1.6.1 du 31 janvier 2022
  - Suppression automatique des fichiers GPX périmés (+ de 2h)
  - Correction du centrage carte lorsque les traces GPX sont activées
@@ -17,12 +25,12 @@ Version 1.5.2 du 28 janvier 2022
 
 
 Version 1.5.1 du 26 janvier 2022
-- Nouvelle gestion des arguments d'URL pour les données provenant de l'application Overland GPS Tracker (iPhone)
-- Ajout d'une case à cocher pour les écrans en mode paysage et/ou à faible résolution
+ - Nouvelle gestion des arguments d'URL pour les données provenant de l'application Overland GPS Tracker (iPhone)
+ - Ajout d'une case à cocher pour les écrans en mode paysage et/ou à faible résolution
 
 
 Version 1.5.0 du 25 janvier 2022
-- Implémentation de la réception de données provenant de l'application Overland (pour iPhone)
+ - Implémentation de la réception de données provenant de l'application Overland (pour iPhone)
 
 
 Version 1.4.1 du 23 janvier 2022

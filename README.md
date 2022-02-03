@@ -24,3 +24,5 @@ Compatible avec les applications:
 ![screenshot](https://github.com/ledudulela/gloc/blob/main/gloc_screenshot.png)
 
 Pour cela, il suffit d'envoyer votre position vers l'url du site GLoc, avec l'une des applications compatibles, en suivant les indications de la page d'aide: http://ledudulela.free.fr/gloc/help
+
+Vous pouvez vous exprimer ici, dans le forum de discussion: https://github.com/ledudulela/gloc/discussions

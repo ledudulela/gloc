@@ -1,5 +1,10 @@
 Suivi de versions :
 -------------------
+Version 1.6.3 du 3 février 2022
+ - Renforcement du contrôle de valeurs reçues
+ - Améliorations d'IHM de la page de gestion de liste
+
+
 Version 1.6.2 du 1er février 2022
  - Désactivation de l'affichage de points s'ils sont périmés
  - Ajout de la date/heure de réception du point

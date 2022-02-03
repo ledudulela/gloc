@@ -1,3 +1,3 @@
 <?php
- /* G-LOC */
+// GLoc version 1.6.3
 ?>

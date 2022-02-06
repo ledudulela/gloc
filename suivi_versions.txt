@@ -1,5 +1,9 @@
 Suivi de versions :
 -------------------
+Version 1.6.4 du 6 février 2022
+- Améliorations du traitement des fichiers GPX
+
+
 Version 1.6.3 du 3 février 2022
  - Renforcement du contrôle de valeurs reçues
  - Améliorations d'IHM de la page de gestion de liste
